@@ -1,0 +1,112 @@
+@charset "UTF-8";
+body {
+    background: rgb(0, 0, 255, .8);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+section#lado_direito {
+    position: absolute;
+    width: 400px;
+    background: rgb(112, 147, 219);
+    margin-left: 550px;
+    height: 398px;
+    margin-top: -403px;
+    border: ridge;
+}
+
+fieldset {
+    background: rgb(112, 147, 219);
+    border-radius: 10pt;
+    margin-top: 10px;
+}
+
+fieldset input {
+    border: groove;
+}
+
+p {
+    color: rgb(255, 255, 0);
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+legend {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(255, 255, 0);
+}
+
+caption {
+    color: rgb(255, 255, 0);
+    font-size: 15pt;
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+table {
+    border: 2px#606060 solid;
+    background: rgb(112, 147, 219);
+    border-radius: 08pt;
+    border-spacing: 0pt;
+    margin-left: 114px;
+    margin-top: 25px;
+    
+}
+
+td {
+    border: 1px #000000 solid;
+    color: rgb(255, 255, 0);
+    font-size: 22px;
+    text-align: center;
+}
+
+section#lado_esquerdo {
+    position: relative;
+    margin-left: 65px;
+    background: rgba(7, 50, 243, 0.907);
+    margin-right: 523px;
+}
+
+div#mostrar_jogador_e_pontuacao p {
+    color: rgb(255, 255, 0);
+    text-align: center;
+    box-shadow: 1px 1px 1px #606060;
+    margin-top: -13px;
+}
+
+div#div_buttonsX {
+    position: relative;
+    text-align: center;
+    margin-top: 48px;
+}
+
+div#div_buttonsO {
+    position: relative;
+    text-align: center;
+    margin-top: 22px;
+}
+
+input {
+    margin-left: 20px;
+}
+
+button {
+    color: black;
+    font-size: 20px;
+}
+
+#restart{
+    font-size: 25px;
+    margin-left: 146px;
+    margin-top: 30px;
+    border-radius: 1px; 
+    background:rgb(112, 147, 219);
+    color: rgb(255, 255, 0);
+}

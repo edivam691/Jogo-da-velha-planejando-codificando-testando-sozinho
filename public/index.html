@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style_jogo_da_velha.css" />
+
+    <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@9 "></script>
+
+    <title>Diversão</title>
+</head>
+
+<body>
+    <!--<img src="./imagens_j_v/botao_x.png" alt="">-->
+    <header>
+        <h1>Jogo da velha</h1>
+    </header>
+
+    <section id="lado_esquerdo">
+        <div>
+            <img id="square_1" src="./midia_j_v/tabuleiro_laranja.png" />
+            <img id="square_2" src="./midia_j_v/tabuleiro_rosa.png" />
+            <img id="square_3" src="./midia_j_v/tabuleiro_laranja.png" />
+        </div>
+        <div>
+            <img id="square_4" src="./midia_j_v/tabuleiro_rosa.png" />
+            <img id="square_5" src="./midia_j_v/tabuleiro_laranja.png" />
+            <img id="square_6" src="./midia_j_v/tabuleiro_rosa.png" />
+        </div>
+
+        <div>
+            <img id="square_7" src="./midia_j_v/tabuleiro_laranja.png" />
+            <img id="square_8" src="./midia_j_v/tabuleiro_rosa.png" />
+            <img id="square_9" src="./midia_j_v/tabuleiro_laranja.png" />
+        </div>
+    </section>
+
+    <section id="lado_direito">
+        <fieldset>
+            <legend>JOGADORES</legend>
+            <p><label for="player_X">Jogador - X</label><input type="text" id="player_X" size="15" maxlength="15"
+                    placeholder="Digíte o nome" /></p>
+            <p><label for="player_O">Jogador - O</label><input type="text" id="player_O" size="15" maxlength="15"
+                    placeholder="Digíte o nome" /></p>
+        </fieldset>
+        <div id="mostrar_jogador_e_pontuacao">
+            <p></p>
+        </div>
+
+        <table>
+            <tr id="matches">
+                <td>Total de Partidas</td>
+            </tr>
+            <tr id="player_score_X">
+                <td id="playerX"></td>
+            </tr>
+            <tr id="player_score_O">
+                <td id="playerO"></td>
+            </tr>
+            <tr id="tied_games">
+                <td>Empates</td>
+            </tr>
+        </table>
+
+        <button id="restart">Reiniciar</button>
+    </section>
+
+    <div id="div_buttonsX">
+        <button id="btnX1">X-1</button>
+        <button id="btnX2">X-2</button>
+        <button id="btnX3">X-3</button>
+        <button id="btnX4">X-4</button>
+        <button id="btnX5">X-5</button>
+        <button id="btnX6">X-6</button>
+        <button id="btnX7">X-7</button>
+        <button id="btnX8">X-8</button>
+        <button id="btnX9">X-9</button>
+    </div>
+
+    <div id="div_buttonsO">
+        <button id="btnO1">O-1</button>
+        <button id="btnO2">O-2</button>
+        <button id="btnO3">O-3</button>
+        <button id="btnO4">O-4</button>
+        <button id="btnO5">O-5</button>
+        <button id="btnO6">O-6</button>
+        <button id="btnO7">O-7</button>
+        <button id="btnO8">O-8</button>
+        <button id="btnO9">O-9</button>
+    </div>
+
+    <audio src="./midia_j_v/pedra_x.mp3" id="audio_X"></audio>
+
+    <audio src="./midia_j_v/pedra_o.mp3" id="audio_O"></audio>
+
+    <audio src="./midia_j_v/final_jogo.mp3" id="end_of_the_game"></audio>
+
+</body>
+<script type="module" src="./vision_of_the_game.mjs"></script>
+
+</html>

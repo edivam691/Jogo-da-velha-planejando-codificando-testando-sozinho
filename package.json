@@ -1,0 +1,19 @@
+{
+  "name": "projeto_jogo_da_velha",
+  "version": "1.0.0",
+  "description": "Desenvolvendo um game simples",
+  "main": "j_velha_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1","start": "node j_velha_app.js"
+  },
+  "keywords": [
+    "games"
+  ],
+  "author": "edivam tavares",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
